@@ -1,0 +1,76 @@
+
+
+.pointer {
+    cursor: pointer;
+  }
+  .calendarDiv {
+    height: 120px !important;
+    margin-top: 5px;
+    font-size: small;
+    padding: 2%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke !important;
+    box-shadow: 0 0 10px 0 rgba(15, 15, 15, 0.26);
+  }
+  .allocatedDiv {
+    height: 120px !important;
+    margin-top: 5px;
+    font-size: small;
+    padding: 2%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    background-color: orange !important;
+    box-shadow: 0 0 10px 0 rgba(15, 15, 15, 0.26);
+  }
+  
+  .blur {
+    opacity: 0.5;
+  }
+  
+  .confirmedDiv {
+    height: 120px !important;
+    margin-top: 5px;
+    padding: 2%;
+    font-size: small;
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    background-color: green !important;
+    box-shadow: 0 0 10px 0 rgba(15, 15, 15, 0.26);
+  }
+  
+  .cancelDiv {
+    height: 120px !important;
+    font-size: small;
+    margin-top: 5px;
+    padding: 2%;
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    background-color: red !important;
+    box-shadow: 0 0 10px 0 rgba(15, 15, 15, 0.26);
+  }
+  
+  .activeCard {
+    height: 120px !important;
+    margin-top: 5px;
+    font-size: small;
+    padding: 2%;
+    text-align: center;
+    color: black;
+    display: flex;
+    flex-direction: column;
+  
+    box-shadow: 0 0 10px 0 rgba(15, 15, 15, 0.26);
+    border: 2px dashed rgba(15, 15, 15, 0.26);
+  }
+  
+  .btn-primary{
+    background-color: rgb(160, 120, 158) !important;
+    border: none !important;
+  }
